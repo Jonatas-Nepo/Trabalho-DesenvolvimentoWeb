@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Contato</title>
+  <style>
+    body { background: #0B1C2C; color: white; font-family: Arial; margin: 0; }
+    nav { background: #0B1C2C; padding: 10px; text-align: center; }
+    nav a { color: #D4AF37; margin: 10px; text-decoration: none; }
+    h2 { color: #D4AF37; padding-left: 20px; }
+    main { padding: 20px; }
+    input, textarea { width: 100%; padding: 8px; margin-bottom: 10px; }
+    input[type="submit"] { background-color: #D4AF37; color: #0B1C2C; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Sobre Mim</a>
+    <a href="formacao.html">Formação</a>
+    <a href="portfolio.html">Portfólio</a>
+    <a href="contato.html">Contato</a>
+  </nav>
+  <main>
+    <h2>Contato</h2>
+    <p>Preencha abaixo para me enviar uma mensagem:</p>
+    <form>
+      <!-- Nome da pessoa -->
+      <label for="nome">Nome:</label><br>
+      <input type="text" id="nome" name="nome"><br>
+      <!-- Email da pessoa -->
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email"><br>
+      <!-- Mensagem -->
+      <label for="mensagem">Mensagem:</label><br>
+      <textarea id="mensagem" name="mensagem" rows="4"></textarea><br>
+      <input type="submit" value="Enviar">
+    </form>
+    <p>Ou me chame no WhatsApp: (32) 99997-1856</p>
+  </main>
+</body>
+</html>
